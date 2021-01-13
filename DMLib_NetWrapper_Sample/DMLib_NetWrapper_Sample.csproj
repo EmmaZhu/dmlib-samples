@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Azure.Storage.DataMovement">
+      <HintPath>..\DMLibBinaries\DMLib_NetWrapper_DMLib_Core\Azure.Storage.DataMovement.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
